@@ -1,0 +1,9 @@
+print("Welcome to how many weeks you have left to live!")
+print("We are being optimistic and assuming you are going to live up to be 90 years old :)")
+print("Ready to find out?.....")
+
+age = input("Please enter your age: ")
+years = 90 - int(age)
+weeks_in_one_year = 52
+weeks_left = int(years * weeks_in_one_year)
+print(f"You have {weeks_left} weeks left to live")
